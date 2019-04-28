@@ -5,5 +5,5 @@ before_install:
    - docker build -t dockkuberockstar1229/docker-react -f Dockerfile.dev .
 script:
    - docker run dockkuberockstar1229/docker-react npm run test -- --coverage
-
+   - ng test ng-busy --watch=false
    
