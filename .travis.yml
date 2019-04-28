@@ -7,7 +7,6 @@ before_install:
    - sudo apt-get update && sudo apt-get --reinstall install -qq language-pack-en language-pack-de
 script:
    - docker run dockkuberockstar1229/docker-react npm run test -- --coverage
-deploy:
-   provider: elasticbeanstalk
+
 
    
