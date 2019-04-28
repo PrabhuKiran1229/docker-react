@@ -6,4 +6,4 @@ before_install:
 script:
    - docker run dockkuberockstar1229/docker-react npm run test -- --coverage
 env:
-  - YARN_GPG=no
+   - YARN_GPG=no
